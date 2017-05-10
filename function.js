@@ -36,6 +36,7 @@ Array.prototype.min = function () {
         }
     });
 };
+
 Array.prototype.sum = function () {
     return cacl(this, function (item, sum) {
         if (typeof (sum) == 'undefined') {
