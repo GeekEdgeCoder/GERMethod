@@ -1,0 +1,26 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>基于jquery的滑动解锁</title>
+    <link rel="stylesheet" href="slideLock.css">
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="slideLock.js"></script>
+</head>
+<body>
+<div class="dragCheck">
+    <div class="dragOk"></div>
+    <div class="dragModule"></div>
+    <div class="dragText">拖拽来完成验证</div>
+</div>
+<script>
+    var options={
+    successFun:function(){
+        checked=true;
+        $('.dragText').text('验证通过');
+        $('.dragModule').addClass('ok');
+    }
+    };
+    $(".dragCheck").dragCheck(options);
+</script>
+</body>
+</html>
