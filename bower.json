@@ -1,0 +1,17 @@
+{
+  "name": "ger",
+  "description": "GER通用类库，由Geek Edge Coder维护",
+  "main": "function.js",
+  "authors": [
+    "ger"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/GeekEdgeCoder/GERMethod",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

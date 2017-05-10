@@ -1,0 +1,23 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "GER通用类库，由Geek Edge Coder维护",
+  "main": "function.js",
+  "dependencies": {
+    "bower": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeekEdgeCoder/GERMethod.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeekEdgeCoder/GERMethod/issues"
+  },
+  "homepage": "https://github.com/GeekEdgeCoder/GERMethod#readme"
+}
