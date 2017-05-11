@@ -1,10 +1,16 @@
+/*
+滑动解锁组件
+作者：GER-Xeon
+
+*/
+
 (function($){
     $.fn.dragCheck = function(options){
         var x, drag = this, isMove = false, defaults = {
             slider:'dragModule',
             successbg:'dragOk',
-            duration:200,
-            successFun:function(){}
+            duration:200,//速度
+            successFun:function(){}//验证成功回调函数
         };
         var options = $.extend(defaults, options);
         var slider = drag.find('.'+options.slider);
